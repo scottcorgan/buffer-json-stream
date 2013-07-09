@@ -12,7 +12,9 @@ npm install buffer-json-stream --save
 
 ```javascript
 
-someReadableStream.pipe(bufferJsonStream()).pipe(process.stdout);
-
+someReadableStream.
+  pipe(bufferJsonStream()).
+  pipe(process.stdout);
+  
 ```
 
