@@ -10,7 +10,7 @@ npm install buffer-json-stream --save
 
 ## Usage
 
-Used as a normal (Transform)[http://nodejs.org/api/stream.html#stream_class_stream_transform] stream.
+Used as a normal [Transform](http://nodejs.org/api/stream.html#stream_class_stream_transform) stream.
 
 ```javascript
 
