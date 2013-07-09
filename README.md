@@ -10,13 +10,34 @@ npm install buffer-json-stream --save
 
 ## Usage
 
-Used as a normal [Transform](http://nodejs.org/api/stream.html#stream_class_stream_transform) stream.
+Use as a normal [Transform](http://nodejs.org/api/stream.html#stream_class_stream_transform) stream.
 
 ```javascript
 
+/*
+In:
+
+Chunk: { some: 'object' }
+Chunk: { someOther: 'object' }
+
+*/
+
 someReadableStream.
-  pipe(bufferJsonStream()).
+  pipe(bufferJsonStream()). // Magic right there
   pipe(process.stdout);
-  
+
+/*
+Out:
+
+Chunk: [
+  {
+    some: 'object'
+  },
+  {
+    someOther: 'object'
+  }
+]
+*/
+
 ```
 
