@@ -1,7 +1,7 @@
 {
   "name": "buffer-json-stream",
   "version": "0.1.6",
-  "description": "Buffer streamin JSON",
+  "description": "Buffer streaming JSON",
   "main": "index.js",
   "scripts": {
     "test": "node test/test"
