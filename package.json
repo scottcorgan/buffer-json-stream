@@ -1,0 +1,26 @@
+{
+  "name": "buffer-json-stream",
+  "version": "0.1.0",
+  "description": "Buffer streamin JSON",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scottcorgan/buffer-json-stream.git"
+  },
+  "keywords": [
+    "buffer",
+    "streaming",
+    "json"
+  ],
+  "author": "Scott Corgan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scottcorgan/buffer-json-stream/issues"
+  },
+  "dependencies": {
+    "through": "~2.3.4"
+  }
+}
