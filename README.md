@@ -4,9 +4,7 @@ Buffer streaming JSON. Readable stream pipes in chunks of JSON, buffer-json-stre
 
 ## Install
 
-```
-npm install buffer-json-stream --save
-```
+[![NPM](https://nodei.co/npm/buffer-json-stream.png)](https://nodei.co/npm/buffer-json-stream/)
 
 ## Usage
 
